@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { InfoPaginaService } from '../../services/info-pagina.service';
 
 @Component({
   selector: 'app-header',                   //nombre del selector que es lo que tenemos que usar para llamarlo en nuestro index que llama app.component.html
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+  constructor( public _servicio: InfoPaginaService) { }
 
   ngOnInit() {
   }
