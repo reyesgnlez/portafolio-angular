@@ -1,5 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+/*Animación de carga*/
+svg path,
+svg rect{
+  fill: black;
+}
+/*Fin animación carga*/
 
+/*Animación entrada de fotos más lenta*/
 .animated {
     -webkit-animation-duration: 0.6s;
     animation-duration: 0.6s;
@@ -42,3 +49,5 @@
     -webkit-animation-name: fadeIn;
     animation-name: fadeIn;
   }
+
+  /*Fin animación entrada de fotos más lenta*/
